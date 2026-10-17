@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HQ Cantieri</title>
+  <link rel="icon" type="image/png" href="test/favicon.png" />
+  <style>
+    :root { color-scheme: light dark; --brand: #2f2c81; --bg: #f3f3f7; --text: #15142b; --muted: #57566f; }
+    @media (prefers-color-scheme: dark) { :root { --brand: #a3a0ff; --bg: #0b0b12; --text: #f3f3f8; --muted: #b2b1c6; } }
+    body { margin: 0; min-height: 100dvh; display: grid; place-items: center; background: var(--bg); color: var(--text);
+      font: 400 1rem/1.5 system-ui, -apple-system, Roboto, sans-serif; padding: 24px; box-sizing: border-box; text-align: center; }
+    h1 { font-size: 1.75rem; line-height: 1.15; letter-spacing: -0.02em; margin: 16px 0 8px; }
+    p { color: var(--muted); margin: 0 0 24px; max-width: 32ch; }
+    a { display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 14px;
+      background: var(--brand); color: #fff; font-weight: 600; text-decoration: none; }
+    @media (prefers-color-scheme: dark) { a { color: #12113a; } }
+    img { width: 72px; height: 72px; border-radius: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="test/icons/icon-192.png" alt="" />
+    <h1>HQ Cantieri</h1>
+    <p>La prima versione stabile è in preparazione. Nel frattempo puoi provare la versione di test.</p>
+    <a href="test/">Apri la versione di test</a>
+  </main>
+</body>
+</html>
